@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Task - Trackify</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="login-card">
+    <h1>Add a New Task</h1>
+    <form id="taskForm">
+      <label for="task">Task Name</label>
+      <input type="text" id="task" name="task" placeholder="Enter task name" required />
+
+      <label for="date">Due Date</label>
+      <input type="date" id="date" name="date" required />
+
+      <button type="submit">Save Task</button>
+    </form>
+
+    <a href="dashboard.html" class="button-link">← Back to Dashboard</a>
+
+    <p class="footer-text">&copy; 2025 Trackify | All rights reserved</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
